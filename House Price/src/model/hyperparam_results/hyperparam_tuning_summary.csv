@@ -1,0 +1,9 @@
+Model,Best_RMSE_on_cv,Validation_RMSE,Validation_R2,Best_Params
+SVR,0.12686218768592014,0.1364685323941108,0.9002006233683435,"{""kernel"": ""rbf"", ""gamma"": ""auto"", ""C"": 1.0}"
+XGBRegressor,0.12516570986459086,0.13700754371212207,0.8994107090050946,"{""subsample"": 0.6, ""n_estimators"": 400, ""max_depth"": 3, ""learning_rate"": 0.05, ""colsample_bytree"": 0.6}"
+GradientBoostingRegressor,0.12375258121722446,0.13774124107471844,0.8983304807704187,"{""subsample"": 0.6, ""n_estimators"": 400, ""max_depth"": 3, ""learning_rate"": 0.05}"
+RandomForestRegressor,0.14154301686575987,0.14765411275230844,0.8831701328120347,"{""n_estimators"": 100, ""min_samples_split"": 2, ""max_features"": 0.5, ""max_depth"": null}"
+KNeighborsRegressor,0.1607637102991714,0.1815670617494354,0.8233405322934931,"{""weights"": ""distance"", ""p"": 1, ""n_neighbors"": 9}"
+DecisionTreeRegressor,0.19574587854700212,0.19297724818539821,0.8004393063946411,"{""min_samples_split"": 5, ""min_samples_leaf"": 1, ""max_depth"": 10}"
+SGDRegressor_Squared,0.2630548654508479,0.2167750875435469,0.748185040255049,"{""penalty"": ""l2"", ""max_iter"": 500, ""learning_rate"": ""invscaling"", ""alpha"": 0.0001}"
+LinearRegression,0.3106838145662338,0.8028278938818104,-2.4538835685295135,"{""fit_intercept"": false}"
